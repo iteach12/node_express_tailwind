@@ -1,0 +1,25 @@
+{
+  "name": "express_self",
+  "version": "1.0.0",
+  "description": "my_turn",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "build-css": "tailwindcss build -i src/styles.css -o public-it0129/styles.css"
+  },
+  "author": "iteach12",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "nodemon": "^2.0.15",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.18"
+  }
+}
